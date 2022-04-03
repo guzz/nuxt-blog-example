@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.h1 {
+  @apply md:text-5xl text-3xl antialiased font-bold font-serif;
+}
+
+header.main-header {
+  @apply h-12 shadow-md bg-red-700 text-white fixed w-full top-0 left-0;
+}
+
+.fixed-header .page {
+  @apply mt-12;
+}
+
+.page {
+  @apply p-4;
+}
